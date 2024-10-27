@@ -93,7 +93,7 @@
 
 Скриншот вывода команды `kubectl get nodes` и `curl -k https://89.169.132.62:10443`:
 
-![kubectl get nodes](https://github.com/megasts/kuber-homeworks/blob/task_1.1/1.1/img/2024-10-25_19-31-18.png)
+![kubectl get nodes](https://github.com/megasts/kuber-homeworks/blob/task_1.1/1.1/img/2024-10-25_19-29-01.png)
 
 Скриншот терминала с запущенным port-forward:
 
