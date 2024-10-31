@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-after-service
+  labels:
+    app: nginx
+spec:
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest  
+      initContainers:
+      - name: init
+        image: busybox
+        command: ['sh', '-c', "until nslookup svc-nginx.part2.svc.cluster.local; do echo waiting for netology-svc; sleep 10; done"]
+       
