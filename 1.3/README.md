@@ -56,7 +56,19 @@
 3. Создать и запустить Service. Убедиться, что Init запустился.
 4. Продемонстрировать состояние пода до и после запуска сервиса.
 
-------
+---
+### Ответ
+
+ - Ссылка на Deployment: [приложениe nginx с Init-контейнером](https://github.com/megasts/kuber-homeworks/blob/Task_1.3/1.3/src/deployment_nginx.yaml)
+
+ - Ссылка на Service: [svc-nginx](https://github.com/megasts/kuber-homeworks/blob/Task_1.3/1.3/src/deployment_nginx.yaml)
+
+ - Скриншоты, подтверждающие, что контейнер nginx стартует только после запуска Service c наименованием svc-nginx:
+ 
+  ![Скриншот4](https://github.com/megasts/kuber-homeworks/blob/Task_1.3/1.3/IMG/task1_3_4.png)
+
+  ![Скриншот5](https://github.com/megasts/kuber-homeworks/blob/Task_1.3/1.3/IMG/task1_3_5.png)
+---
 
 ### Правила приема работы
 
