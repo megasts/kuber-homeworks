@@ -37,15 +37,15 @@
 
 2. Ссылка на Deployment с двумя репликами: [приложение, состоящего из двух контейнеров — nginx и multitool](https://github.com/megasts/kuber-homeworks/blob/Task_1.3/1.3/src/deployment_2_replic.yaml)
 
-3.  - Скриншот количество подов до масштабирования: ![Скриншот1](https://github.com/megasts/kuber-homeworks/blob/task_1.3/1.3/IMG/Task1_3_1.png)
+3.  - Скриншот количество подов до масштабирования: ![Скриншот1](https://github.com/megasts/kuber-homeworks/blob/Task_1.3/1.3/IMG/task1_3_1.png)
 
-    - Скриншот количество подов после масштабирования: ![Скриншот2](https://github.com/megasts/kuber-homeworks/blob/task_1.3/1.3/IMG/Task1_3_2.png)
+    - Скриншот количество подов после масштабирования: ![Скриншот2](https://github.com/megasts/kuber-homeworks/blob/Task_1.3/1.3/IMG/task1_3_2.png)
 
 4. Ссылка на Service: [доступ до реплик приложений из п.1](https://github.com/megasts/kuber-homeworks/blob/Task_1.3/1.3/src/netology-svc.yaml)
 
 5.  - Ссылка на Pod: [отдельный Pod с приложением multitool](https://github.com/megasts/kuber-homeworks/blob/Task_1.3/1.3/src/pod_multitool.yaml)
 
-    - Скриншот подтверждения наличия доступа из пода до приложений из п.1 ![Скриншот3](https://github.com/megasts/kuber-homeworks/blob/task_1.3/1.3/IMG/Task1_3_3.png)
+    - Скриншот подтверждения наличия доступа из пода до приложений из п.1 ![Скриншот3](https://github.com/megasts/kuber-homeworks/blob/Task_1.3/1.3/IMG/task1_3_3.png)
 
 ---
 
