@@ -34,15 +34,15 @@
 
 ### Ответ
 
-1. Ссылка на Deployment: [приложение, состоящее из двух контейнеров (nginx и multitool), с количеством реплик 3 шт](https://github.com/megasts/kuber-homeworks/tree/task_1.4/1.4/src/deployment_task1.yaml)
+1. Ссылка на Deployment: [приложение, состоящее из двух контейнеров (nginx и multitool), с количеством реплик 3 шт](https://github.com/megasts/kuber-homeworks/blob/task_1.4/1.4/src/deployment_task1.yaml)
 
-2. Ссылка на Service: [Service, который обеспечит доступ внутри кластера до контейнеров приложения из п.1 по порту 9001 — nginx 80, по 9002 — multitool 8080](https://github.com/megasts/kuber-homeworks/tree/task_1.4/1.4/src/service.yaml)
+2. Ссылка на Service: [Service, который обеспечит доступ внутри кластера до контейнеров приложения из п.1 по порту 9001 — nginx 80, по 9002 — multitool 8080](https://github.com/megasts/kuber-homeworks/blob/task_1.4/1.4/src/service.yaml)
 
-3. Ссылка на Pod: [приложение multitool](https://github.com/megasts/kuber-homeworks/tree/task_1.4/1.4/src/pod_multitool.yaml)
+3. Ссылка на Pod: [приложение multitool](https://github.com/megasts/kuber-homeworks/blob/task_1.4/1.4/src/pod_multitool.yaml)
 
 4. Скриншот, демонстрирующий доступ с помощью `curl` по доменному имени сервиса:
 
-![Screen1](https://github.com/megasts/kuber-homeworks/tree/task_1.4/1.4/img/task1_4_1.png)
+![Screen1](https://github.com/megasts/kuber-homeworks/blob/task_1.4/1.4/img/task1_4_1.png)
 
 ---
 
