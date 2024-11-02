@@ -34,7 +34,7 @@
 
 ### Ответ
 
-1. Ссылка на Deployment: [приложение, состоящее из двух контейнеров (nginx и multitool), с количеством реплик 3 шт](https://github.com/megasts/kuber-homeworks/blob/task_1.4/1.4/src/deployment_task1.yaml)
+1. Ссылка на Deployment: [приложение, состоящее из двух контейнеров (nginx и multitool), с количеством реплик 3 шт](https://github.com/megasts/kuber-homeworks/blob/task_1.4/1.4/src/deployment.yaml)
 
 2. Ссылка на Service: [Service, который обеспечит доступ внутри кластера до контейнеров приложения из п.1 по порту 9001 — nginx 80, по 9002 — multitool 8080](https://github.com/megasts/kuber-homeworks/blob/task_1.4/1.4/src/service.yaml)
 
@@ -51,6 +51,16 @@
 1. Создать отдельный Service приложения из Задания 1 с возможностью доступа снаружи кластера к nginx, используя тип NodePort.
 2. Продемонстрировать доступ с помощью браузера или `curl` с локального компьютера.
 3. Предоставить манифест и Service в решении, а также скриншоты или вывод команды п.2.
+
+---
+
+### Ответ
+
+1. Ссылка на Service: [Service из Задания 1 с возможностью доступа снаружи кластера к nginx, используя тип NodePort](https://github.com/megasts/kuber-homeworks/blob/task_1.4/1.4/src/service-nodeport.yaml)
+
+2. Скриншот, демонстрирующий доступ с помощью `curl` с локального компьютера:
+
+![Screen2](https://github.com/megasts/kuber-homeworks/blob/task_1.4/1.4/img/task1_4_2.png)
 
 ------
 
