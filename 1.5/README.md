@@ -36,7 +36,7 @@
 
 1. Ссылка на Deployment приложения (вместе с Service): [_frontend_](https://github.com/megasts/kuber-homeworks/blob/task_1.5/1.5/src/deployment_frontend.yaml)
 
-2. Ссылка на Deployment приложения (вместе с Service): [_frontend_](https://github.com/megasts/kuber-homeworks/blob/task_1.5/1.5/src/deployment_backend.yaml)
+2. Ссылка на Deployment приложения (вместе с Service): [_backend_](https://github.com/megasts/kuber-homeworks/blob/task_1.5/1.5/src/deployment_backend.yaml)
 
 3. Скриншот, демонстрирующий, что приложения видят друг друга:
 
