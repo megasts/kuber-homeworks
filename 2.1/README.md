@@ -40,7 +40,9 @@
 
 Ссылка манифест: [Deployment busybox-multitool](src/deployment.yaml)
 
-Скриншот, демонстрирующий, что multitool может читать файл, который периодоически обновляется ![Screen1](https://github.com/megasts/kuber-homeworks/blob/task_2.1/2.1/img/task2_1_1.png)
+Скриншот, демонстрирующий, что multitool может читать файл, который периодоически обновляется:
+
+ ![Screen1](https://github.com/megasts/kuber-homeworks/blob/task_2.1/2.1/img/task2_1_1.png)
 
 ------
 
@@ -60,7 +62,9 @@
 
 Ссылка манифест: [DaemonSet multitool-log](src/deployment.yaml)
 
-Скриншот, демонстрирующий возможность чтения syslog изнутри пода [!Screen2](https://github.com/megasts/kuber-homeworks/blob/task_2.1/2.1/img/task2_1_2.png)
+Скриншот, демонстрирующий возможность чтения syslog изнутри пода:
+
+ ![Screen2](https://github.com/megasts/kuber-homeworks/blob/task_2.1/2.1/img/task2_1_2.png)
 
 ------
 
