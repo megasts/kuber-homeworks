@@ -20,5 +20,4 @@ spec:
       volumes:
         - name: vol
           hostPath:
-            #path: /var/log
             path: /var/log/syslog
