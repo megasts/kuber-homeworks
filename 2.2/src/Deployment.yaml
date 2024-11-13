@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: busybox-multitool
+spec:
+  selector:
+    matchLabels:
+      app: app
+  template:
+    metadata:
+      labels:
+        app: app
+    spec:
+      containers:
+      - name: multitool
+        image: wbitt/network-multitool
+        volumeMounts:
+        - name: vol
+          mountPath: /input
+      - name: busybox
+        image: busybox
+        command: ['sh', '-c', 'until false; do echo "$(date)" >> /output/file_date; sleep 5; done']
+        volumeMounts:
+        - name: vol
+          mountPath: /output
+      volumes:
+        - name: vol
+          persistentVolumeClaim:
+            claimName: mypvc
