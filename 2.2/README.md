@@ -40,25 +40,33 @@
 
 ### Ответ
 
-1. Скриншот, демонстрирующий, что multitool может читать файл, в который busybox пишет каждые пять секунд в общей директории: 
+1. Ссылки на манифесты:
+
+[Deployment](https://github.com/megasts/kuber-homeworks/blob/task_2.2/2.2/src/Deployment.yaml)
+
+[PVC](https://github.com/megasts/kuber-homeworks/blob/task_2.2/2.2/src/PVC.yaml)
+
+[PV](https://github.com/megasts/kuber-homeworks/blob/task_2.2/2.2/src/PV.yaml)
+
+2. Скриншот, демонстрирующий, что multitool может читать файл, в который busybox пишет каждые пять секунд в общей директории: 
 
 ![Screen1](https://github.com/megasts/kuber-homeworks/blob/task_2.2/2.2/img/task2_2_1.png)
 
-2. Скриншот после удаления Deployment и PVC:
+3. Скриншот после удаления Deployment и PVC:
 
 ![Screen2](https://github.com/megasts/kuber-homeworks/blob/task_2.2/2.2/img/task2_2_2.png)
 
 Статус PV сменился с Bound на Released. PV свободен и может быть использован в дальнейшем.
 
-3. Скриншот, демонстрирующий, что файл сохранился на локальном диске ноды:
+4. Скриншот, демонстрирующий, что файл сохранился на локальном диске ноды:
 
 ![Screen3](https://github.com/megasts/kuber-homeworks/blob/task_2.2/2.2/img/task2_2_3.png)
 
-4. Скриншот, демонстрирующий, что после удаления PV файл сохранился:
+5. Скриншот, демонстрирующий, что после удаления PV файл сохранился:
 
 ![Screen4](https://github.com/megasts/kuber-homeworks/blob/task_2.2/2.2/img/task2_2_4.png)
 
-Файл после удаления PV сохранился потому, что при создании PV была применена настройка ReclaimPolicy=Retain (после удаления PV ресурсы из внешних провайдеров автоматически не удаляются).
+Файл после удаления PV файл сохранился потому, что при создании PV была применена настройка ReclaimPolicy=Retain (после удаления PV ресурсы из внешних провайдеров автоматически не удаляются).
 
 ------
 
@@ -72,6 +80,20 @@
 2. Создать Deployment приложения состоящего из multitool, и подключить к нему PV, созданный автоматически на сервере NFS.
 3. Продемонстрировать возможность чтения и записи файла изнутри пода. 
 4. Предоставить манифесты, а также скриншоты или вывод необходимых команд.
+
+---
+
+### Ответ
+
+1. Ссылки на манифест для создания PODa и PVC: [Deployment_nfs](https://github.com/megasts/kuber-homeworks/blob/task_2.2/2.2/src/Deployment_nfs.yaml)
+
+2. Скриншот подключения NFS-сервер на MicroK8S:
+
+![Screen5](https://github.com/megasts/kuber-homeworks/blob/task_2.2/2.2/img/task2_2_5.png)
+
+3. Скриншот, демонстрирующий возможность чтения и записи файла изнутри пода:
+
+![Screen6](https://github.com/megasts/kuber-homeworks/blob/task_2.2/2.2/img/task2_2_6.png)
 
 ------
 
