@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest  
+        volumeMounts:
+        - name: nginxhtml
+          mountPath: usr/share/nginx/html
+      volumes:
+        - name: nginxhtml
+          configMap:
+            name: pagehtml

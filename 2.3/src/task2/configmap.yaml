@@ -1,0 +1,13 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pagehtml
+data:
+  index.html: |
+    <html>
+    <body>
+      <h1>Hello!<h1>
+      <h1>Task number 2<h1>
+    </body>
+    </html>
